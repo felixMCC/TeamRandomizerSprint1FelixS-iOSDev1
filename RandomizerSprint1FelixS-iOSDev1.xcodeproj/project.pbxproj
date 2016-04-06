@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC0949101C99ED06009842E7 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC09490F1C99ED06009842E7 /* Team.swift */; };
+		DC0949121C99ED4A009842E7 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0949111C99ED4A009842E7 /* Player.swift */; };
+		DC0949161C99F070009842E7 /* CreatePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0949151C99F070009842E7 /* CreatePlayerViewController.swift */; };
 		DC4E39B81C98FB120067B1ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4E39B71C98FB120067B1ED /* AppDelegate.swift */; };
 		DC4E39BA1C98FB120067B1ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4E39B91C98FB120067B1ED /* ViewController.swift */; };
 		DC4E39BD1C98FB120067B1ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4E39BB1C98FB120067B1ED /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC09490F1C99ED06009842E7 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		DC0949111C99ED4A009842E7 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		DC0949151C99F070009842E7 /* CreatePlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePlayerViewController.swift; sourceTree = "<group>"; };
 		DC4E39B41C98FB120067B1ED /* RandomizerSprint1FelixS-iOSDev1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RandomizerSprint1FelixS-iOSDev1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4E39B71C98FB120067B1ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC4E39B91C98FB120067B1ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,10 +105,13 @@
 			children = (
 				DC4E39B71C98FB120067B1ED /* AppDelegate.swift */,
 				DC4E39B91C98FB120067B1ED /* ViewController.swift */,
+				DC0949151C99F070009842E7 /* CreatePlayerViewController.swift */,
 				DC4E39BB1C98FB120067B1ED /* Main.storyboard */,
 				DC4E39BE1C98FB120067B1ED /* Assets.xcassets */,
 				DC4E39C01C98FB120067B1ED /* LaunchScreen.storyboard */,
 				DC4E39C31C98FB120067B1ED /* Info.plist */,
+				DC09490F1C99ED06009842E7 /* Team.swift */,
+				DC0949111C99ED4A009842E7 /* Player.swift */,
 			);
 			path = "RandomizerSprint1FelixS-iOSDev1";
 			sourceTree = "<group>";
@@ -256,6 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0949121C99ED4A009842E7 /* Player.swift in Sources */,
+				DC0949101C99ED06009842E7 /* Team.swift in Sources */,
+				DC0949161C99F070009842E7 /* CreatePlayerViewController.swift in Sources */,
 				DC4E39BA1C98FB120067B1ED /* ViewController.swift in Sources */,
 				DC4E39B81C98FB120067B1ED /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +496,7 @@
 				DC4E39DE1C98FB120067B1ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC4E39DF1C98FB120067B1ED /* Build configuration list for PBXNativeTarget "RandomizerSprint1FelixS-iOSDev1Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				DC4E39E11C98FB120067B1ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC4E39E21C98FB120067B1ED /* Build configuration list for PBXNativeTarget "RandomizerSprint1FelixS-iOSDev1UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				DC4E39E41C98FB120067B1ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
