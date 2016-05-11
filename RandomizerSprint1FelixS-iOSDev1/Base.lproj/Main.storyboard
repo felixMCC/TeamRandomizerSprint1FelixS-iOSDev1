@@ -415,6 +415,7 @@
                         <outlet property="numberOfTeamsLabel" destination="Xy2-SQ-MXn" id="neG-W2-XYQ"/>
                         <outlet property="numberOfTeamsStepperButtons" destination="nIv-G6-AbE" id="T66-oa-F4R"/>
                         <outlet property="stepperButtons" destination="Xcr-LG-ZJT" id="Wzy-h9-d1P"/>
+                        <segue destination="6uQ-kw-hkZ" kind="presentation" identifier="CreatePlayerSegue" id="zjp-9s-Emn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -52,6 +52,7 @@ class CreatePlayerViewController: UIViewController, UITableViewDataSource, UITab
         playerMaxLabel.hidden = true
         playerMaxLabel.text = String(maxPlayersSet) //set total number of players label
         
+        //Handle if chosen method is with ratings or not
         if isRatedPlayer == false {
             //hide UI label
             uiSkillLevelLabel.hidden = true
@@ -68,6 +69,21 @@ class CreatePlayerViewController: UIViewController, UITableViewDataSource, UITab
             playerRatingButton4.hidden = true
             playerRatingButton5.hidden = true
             
+        }else {
+            //hide UI label
+            uiSkillLevelLabel.hidden = false
+            //dissable all buttons for rating
+            playerRatingButton1.enabled = true
+            playerRatingButton2.enabled = true
+            playerRatingButton3.enabled = true
+            playerRatingButton4.enabled = true
+            playerRatingButton5.enabled = true
+            //hide all rating buttons
+            playerRatingButton1.hidden = false
+            playerRatingButton2.hidden = false
+            playerRatingButton3.hidden = false
+            playerRatingButton4.hidden = false
+            playerRatingButton5.hidden = false
         }
         
     }

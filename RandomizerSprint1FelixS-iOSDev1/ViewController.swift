@@ -69,8 +69,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func BalancedTeams(sender: AnyObject) {
-        //set flag to indicate no rating will be used
-        isRated = false
+        //set flag to indicate a rating will be used
+        isRated = true
         //get total number of players set by user
         maxPlayers = Int(NumberOfPlayersLabel.text!)!
         //get number of teams set by user
