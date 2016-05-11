@@ -18,7 +18,7 @@ class Team{
     private var teamSkill : Int = 0                 //teams total skill (sum of player's skill)
     var teamPlayerArray : [Player] = [Player]()     //holds players in this team
     
-    init(tNumber : Int, fitEvenly : Int){
+    init(teamNumber tNumber : Int, fitEvenly : Int){
         //do nothing
         self.teamNumber = tNumber               //set team number
         self.playersFittingEvenly = fitEvenly   //set number of players that fit evenly in team
@@ -62,11 +62,14 @@ class Team{
     //calculates teams total skill level by adding individual players skill level
     func calculateTeamsSkillLevel()->Void{
         if(!teamPlayerArray.isEmpty){
+            print("teamPlayer Array is not empty\n")
             //reset team skill level
             teamSkill = 0
             //recalculate team skill level
             for player in teamPlayerArray{
+                
                 teamSkill += player.rating
+                //print("Calculating: \nPlayer: " + player.name + " Rating: " + String(player.rating) + " Total So Far: " + String(teamSkill))
             }
         }
     }

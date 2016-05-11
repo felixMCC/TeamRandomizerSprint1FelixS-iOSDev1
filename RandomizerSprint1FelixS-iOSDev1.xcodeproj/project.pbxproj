@@ -17,6 +17,8 @@
 		DC4E39C21C98FB120067B1ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4E39C01C98FB120067B1ED /* LaunchScreen.storyboard */; };
 		DC4E39CD1C98FB120067B1ED /* RandomizerSprint1FelixS_iOSDev1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4E39CC1C98FB120067B1ED /* RandomizerSprint1FelixS_iOSDev1Tests.swift */; };
 		DC4E39D81C98FB120067B1ED /* RandomizerSprint1FelixS_iOSDev1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4E39D71C98FB120067B1ED /* RandomizerSprint1FelixS_iOSDev1UITests.swift */; };
+		DC682F5D1CD6C6F30085377E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC682F5C1CD6C6F30085377E /* Model.swift */; };
+		DC7FE7161CC7316D00647B3A /* TeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7FE7151CC7316D00647B3A /* TeamsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		DC4E39D31C98FB120067B1ED /* RandomizerSprint1FelixS-iOSDev1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RandomizerSprint1FelixS-iOSDev1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4E39D71C98FB120067B1ED /* RandomizerSprint1FelixS_iOSDev1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizerSprint1FelixS_iOSDev1UITests.swift; sourceTree = "<group>"; };
 		DC4E39D91C98FB120067B1ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC682F5C1CD6C6F30085377E /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DC7FE7151CC7316D00647B3A /* TeamsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +110,12 @@
 				DC4E39B71C98FB120067B1ED /* AppDelegate.swift */,
 				DC4E39B91C98FB120067B1ED /* ViewController.swift */,
 				DC0949151C99F070009842E7 /* CreatePlayerViewController.swift */,
+				DC7FE7151CC7316D00647B3A /* TeamsTableViewController.swift */,
 				DC4E39BB1C98FB120067B1ED /* Main.storyboard */,
 				DC4E39BE1C98FB120067B1ED /* Assets.xcassets */,
 				DC4E39C01C98FB120067B1ED /* LaunchScreen.storyboard */,
 				DC4E39C31C98FB120067B1ED /* Info.plist */,
+				DC682F5C1CD6C6F30085377E /* Model.swift */,
 				DC09490F1C99ED06009842E7 /* Team.swift */,
 				DC0949111C99ED4A009842E7 /* Player.swift */,
 			);
@@ -265,10 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC682F5D1CD6C6F30085377E /* Model.swift in Sources */,
 				DC0949121C99ED4A009842E7 /* Player.swift in Sources */,
 				DC0949101C99ED06009842E7 /* Team.swift in Sources */,
 				DC0949161C99F070009842E7 /* CreatePlayerViewController.swift in Sources */,
 				DC4E39BA1C98FB120067B1ED /* ViewController.swift in Sources */,
+				DC7FE7161CC7316D00647B3A /* TeamsTableViewController.swift in Sources */,
 				DC4E39B81C98FB120067B1ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
